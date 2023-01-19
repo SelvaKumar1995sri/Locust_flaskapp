@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "77e750c7-5997-4a5d-9a4e-bffa14f009ce",
+		"name": "locust flask crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24553149"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xsX25vIjoxLCJuYW1lIjoicmFtdSIsImFnZSI6MjUsImxvY2F0aW9uIjoidml6aHVwdXJhbSIsImV4cCI6MTY2OTIwNTI2NH0.lPgWL7mblrgI5uQXSlLMAXkMldenb_E4TeK21QNtCRY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:5000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1fNiIsInR5cCI6IkpXVCJ9.eyJyb2xsX25vIjoxLCJuYW1lIjoicmFtdSIsImFnZSI6MjUsImxvY2F0aW9uIjoidml6aHVwdXJhbSIsImV4cCI6MTY2OTEyMDMzNH0.3Xh6YCF7byjxCdMy9p_ZZig0GUS1xkZwfWrhgBXJqgk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n            \"emp_name\" : \"ramu\",\r\n            \"age\" : 25,\r\n            \"location\" : \"TBM\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1fNiIsInR5cCI6IkpXVCJ9.eyJyb2xsX25vIjoxLCJuYW1lIjoicmFtdSIsImFnZSI6MjUsImxvY2F0aW9uIjoidml6aHVwdXJhbSIsImV4cCI6MTY2OTEyMDMzNH0.3Xh6YCF7byjxCdMy9p_ZZig0GUS1xkZwfWrhgBXJqgk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n            \"emp_name\" : \"ramu\",\r\n            \"age\" : 25,\r\n            \"location\" : \"erode\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/update",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/dalete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1fNiIsInR5cCI6IkpXVCJ9.eyJyb2xsX25vIjoxLCJuYW1lIjoicmFtdSIsImFnZSI6MjUsImxvY2F0aW9uIjoidml6aHVwdXJhbSIsImV4cCI6MTY2OTEyMDMzNH0.3Xh6YCF7byjxCdMy9p_ZZig0GUS1xkZwfWrhgBXJqgk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emp_name\":\"ramu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/delete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

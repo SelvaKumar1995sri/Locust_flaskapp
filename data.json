@@ -1,0 +1,27 @@
+[
+    {
+        "emp_name": "subbu",
+        "age": 25,
+        "location": "TBM"
+    },
+    {
+        "emp_name": "ammu",
+        "age": 21,
+        "location": "kanniyakumari"
+    },
+    {
+        "emp_name": "gopal",
+        "age": 21,
+        "location": "egmore"
+    },
+    {
+        "emp_name": "zack",
+        "age": 18,
+        "location": "ennore"
+    },
+    {
+        "emp_name": "veeru",
+        "age": 25,
+        "location": "TBM"
+    }
+]
